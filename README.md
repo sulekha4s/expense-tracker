@@ -11,6 +11,22 @@ A Python-based expense tracking application with SQLite database, pandas analyti
 - **Input Validation** - Robust error handling and data validation
 - **Logging** - Professional logging instead of print statements
 
+## Tech Stack
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Language** | Python 3.8+ | Core programming language |
+| **Database** | SQLite3 (stdlib) | Local persistent storage with SQL queries and indexes |
+| **Data Analysis** | pandas | Data aggregation, groupby operations, summary statistics |
+| **Visualization** | matplotlib | Charts, graphs, and dashboards (PNG output) |
+| **ETL** | csv (stdlib) | Extract-Transform-Load pipeline for bank statement imports |
+| **Data Modeling** | dataclasses, typing (stdlib) | Structured data validation with type hints |
+| **Logging** | logging (stdlib) | Structured status and error logging |
+| **Interface** | Interactive CLI | Menu-driven terminal application (input/print loop) |
+| **Version Control** | Git/GitHub | Repository hosting and collaboration |
+
+**Dependencies**: Only 2 external packages required (`pandas`, `matplotlib`) - everything else uses Python standard library.
+
 ## Quick Start
 
 ### Installation
@@ -118,6 +134,30 @@ The application generates:
 - Comprehensive dashboard
 
 All charts are saved to the `charts/` directory as high-resolution PNG files.
+
+## Sample Visualizations
+
+The application generates professional visualizations using matplotlib. Below are sample charts generated from the included bank statement data:
+
+### Category Distribution
+![Category Pie Chart](charts/category_pie_chart.png)
+*Pie chart showing expense distribution across categories*
+
+### Monthly Spending Trend
+![Monthly Trend](charts/monthly_trend.png)
+*Line chart tracking spending patterns over time*
+
+### Category Comparison
+![Category Bar Chart](charts/category_bar_chart.png)
+*Bar chart comparing total spending by category*
+
+### Expense Distribution
+![Expense Histogram](charts/expense_distribution.png)
+*Histogram showing the distribution of expense amounts*
+
+### Analytics Dashboard
+![Dashboard](charts/dashboard.png)
+*Comprehensive dashboard with multiple visualizations*
 
 ### ETL Pipeline Demo (Loading Sample Data)
 
