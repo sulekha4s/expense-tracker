@@ -140,16 +140,12 @@ All charts are saved to the `charts/` directory as high-resolution PNG files.
 The application generates professional visualizations using matplotlib. Below are sample charts generated from the included bank statement data:
 
 ### Category Distribution
-![Category Pie Chart](charts/category_pie_chart.png)
+![Category Pie Chart](charts/category_bar_chart.png)
 *Pie chart showing expense distribution across categories*
 
 ### Monthly Spending Trend
 ![Monthly Trend](charts/monthly_trend.png)
 *Line chart tracking spending patterns over time*
-
-### Category Comparison
-![Category Bar Chart](charts/category_bar_chart.png)
-*Bar chart comparing total spending by category*
 
 ### Expense Distribution
 ![Expense Histogram](charts/expense_distribution.png)
